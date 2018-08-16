@@ -2,7 +2,14 @@ Sphinx==1.7.0
 sphinx-rtd-theme==0.2.4
 sphinx-autobuild==0.7.1
 sphinx-fontawesome==0.0.6
+sphinxjp.themes.bizstyle
 sphinxcontrib-doxylink==1.5
+sphinxcontrib-plantuml
+sphinxcontrib-googlechart
+sphinxcontrib-actdiag
+sphinxcontrib-blockdiag
+sphinxcontrib-nwdiag
+sphinxcontrib-seqdiag
 nbsphinx==0.3.1
 CommonMark==0.5.4
 recommonmark==0.4.0

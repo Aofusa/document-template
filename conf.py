@@ -43,6 +43,12 @@ release = ''
 extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.graphviz',
+    'sphinxcontrib.blockdiag',
+    'sphinxcontrib.seqdiag',
+    'sphinxcontrib.actdiag',
+    'sphinxcontrib.nwdiag',
+    'sphinxcontrib.rackdiag',
+    'sphinxcontrib.packetdiag',
     'sphinx_fontawesome',
     'nbsphinx',
 ]
@@ -182,4 +188,14 @@ texinfo_documents = [
      author, project, 'One line description of project.',
      'Miscellaneous'),
 ]
+
+# -- Options for Blockdiag ---------------------------------------------------
+
+blockdiag_html_image_format = 'SVG'
+seqdiag_html_image_format = 'SVG'
+actdiag_html_image_format = 'SVG'
+nwdiag_html_image_format = 'SVG'
+rackiag_html_image_format = 'SVG'
+packetdiag_html_image_format = 'SVG'
+
 
